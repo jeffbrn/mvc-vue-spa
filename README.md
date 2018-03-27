@@ -10,6 +10,14 @@ This project is for a dotnet template that install a ASP.NET Core 2.0 MVC web ap
 
 	- dotnet new -i jeffb.template.MvcVueSpa
 
+** Create and run project: **
+
+	- dotnet new jeffb.vue -h   //this will list the template parameters
+	- dotnet new jeffb.vue
+	- npm install
+	- dotnet build
+	- dotnet run
+
 ** Uninstall template: **
 
 	- dotnet new -u jeffb.template.MvcVueSpa
