@@ -1,0 +1,20 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Jeff Brown",
+	"classifications": [ "Web", "MVC", "SPA", "Vue" ],
+	"name": "Barebones MVC application using super package",
+	"identity": "jeffb.MvcVueSpa",
+	"shortName": "jeffb.vue",
+	"tags": {
+		"language": "C#"
+	},
+	"sourceName": "MvcVueSpa",
+	"preferNameDirectory": true,
+	"symbols": {
+		"ProjectNameSpace": {
+			"type": "parameter",
+			"defaultValue": "MyProject",
+			"replaces": "jeffb.MvcVueSpa"
+		}
+	}
+}
